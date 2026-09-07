@@ -1,0 +1,31 @@
+# ==========================================
+# Security: NEVER commit credentials/secrets
+# ==========================================
+client_secret*.json
+token*.json
+credentials*.json
+*.key
+*.pem
+*.secret
+
+# Runtime caches and state
+stats.json
+config.json
+avatar.png
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

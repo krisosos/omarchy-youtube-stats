@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "krisosos.youtube-stats",
+  "name": "YouTube Stats for Creators",
+  "version": "1.0.0",
+  "author": "krisosos",
+  "license": "MIT",
+  "description": "Live YouTube statistics widget for creators on the Omarchy status bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "YouTube Stats for Creators",
+    "description": "Live subscribers, views and watch time for YouTube",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
